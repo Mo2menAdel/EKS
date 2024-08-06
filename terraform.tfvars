@@ -1,0 +1,13 @@
+region            = "eu-north-1"
+availability_zones = ["eu-north-1a", "eu-north-1b", "eu-north-1c"]
+cluster_name      = "eks-cluster"
+prod_instance_type = "t3.medium"
+prod_desired_size  = 1
+prod_min_size      = 1
+prod_max_size      = 2
+dev_instance_type  = "t3.medium"
+dev_desired_size   = 1
+dev_min_size       = 1
+dev_max_size       = 2
+domain_name        = "madaebes.com"
+route53_zone_id    = "Z0774762S1JVJXZY6L53"
